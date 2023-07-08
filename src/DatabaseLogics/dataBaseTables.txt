@@ -52,4 +52,6 @@ create table RemovedItems
     Reason      text        not null
 );
 
+INSERT INTO Admin VALUES ('YeabsiraYonas','12345678');
+
 
