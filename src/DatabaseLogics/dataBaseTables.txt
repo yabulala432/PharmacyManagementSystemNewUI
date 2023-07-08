@@ -1,0 +1,55 @@
+create database Pharmacy;
+use Pharmacy;
+
+create table Employee
+(
+    Name     varchar(25) not null,
+    Username varchar(25) not null
+        primary key,
+    Password varchar(8)  not null,
+    Hours    int(2)      not null,
+    Wage     int(5)      not null
+);
+
+create table TotalSales
+(
+    SalesId  int(3)      not null
+        primary key,
+    Date     date        not null,
+    Name     varchar(25) not null,
+    Quantity int(3)      not null,
+    Price    int(5)      not null
+);
+
+create table Items
+(
+    Name    varchar(25) not null
+        primary key,
+    Type    varchar(25) not null,
+    ExpDate date        not null,
+    Price   int(5)      not null,
+    Amount  int(5)      not null
+);
+
+create table Admin
+(
+    Username varchar(25) not null
+        primary key,
+    Password varchar(8)  not null
+);
+
+create table RemovedEmployee
+(
+    Remover         varchar(25) not null,
+    RemovedEmployee varchar(25) not null,
+    Reason          text        not null
+);
+
+create table RemovedItems
+(
+    Remover     varchar(25) not null,
+    RemovedItem varchar(25) not null,
+    Reason      text        not null
+);
+
+
