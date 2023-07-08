@@ -5,3 +5,6 @@ I take the splash screen from [https://](https://github.com/DJ-Raven/java-splash
 
 
 ![OverView Of the project](https://github.com/yabulala432/PharmacyManagementSystemNewUI/blob/main/src/main/icons/screeShot.jpg)
+
+![Overview of the project]
+(https://github.com/yabulala432/PharmacyManagementSystemNewUI/blob/main/src/main/icons/screeShot2.jpg)
