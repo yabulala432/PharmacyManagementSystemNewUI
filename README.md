@@ -1,5 +1,5 @@
-# PharmacyManagementSystemNewUI
-Pharmacy management system with new UI.
+# Pharmacy Management System
+Desktop Application for Pharmacy management system.
 
 I took the splash screen from (https://github.com/DJ-Raven/java-splash-screen)
 
